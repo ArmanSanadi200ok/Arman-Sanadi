@@ -11,9 +11,9 @@
 ---
 
 ## 🚀 About Me
-- 👨‍💻 Working on **AI-powered Academic Management System (NEP 2020)**  
+- 👨‍💻 Founder at **Devloryx Technologies**  
 - 🤖 Integrating **OpenAI API** into real-world applications  
-- 📚 Learning **Django**, **Python Automation**, **REST APIs**  
+- 📚 Learning **Django**, **Python Automation**, **REST APIs**, **AI Assistanted engg.**
 - 🎯 Aspiring **Backend + AI Developer**  
 - ☕ Code. Learn. Build. Repeat.  
 
@@ -36,7 +36,7 @@
 
 ### 🤖 AI & Automation
 - ⚡ OpenAI API  
-- 💬 Chatbot Development  
+- 💬 Chatbot Development
 
 ### 🗄️ Databases
 - 🛢️ MySQL  
