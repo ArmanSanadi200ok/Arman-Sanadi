@@ -44,7 +44,7 @@
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Status
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=armansanadi200ok&show_icons=true&theme=tokyonight" width="55%" />
 </p>
@@ -65,8 +65,12 @@
   <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin" />
 </a>
 
-<a href="#" target="_blank">
-  <img src="https://img.shields.io/badge/Portfolio-Coming%20Soon-purple?logo=vercel" />
+<a href="https://arman-sanadi-portf.netlify.app" target="_blank">
+  <img src="https://img.shields.io/badge/My-Portfolio-7F5AF0?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio" />
+</a>
+
+<a href="https://devloryx.vercel.app" target="_blank">
+  <img src="https://img.shields.io/badge/Founder-Arman%20Sanadi-purple?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 </p>
 
