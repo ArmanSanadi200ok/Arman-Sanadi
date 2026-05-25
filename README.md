@@ -44,14 +44,17 @@
 
 ---
 
-## 📊 GitHub Status
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=armansanadi200ok&show_icons=true&theme=tokyonight" width="55%" />
-</p>
+## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=armansanadi200ok&theme=tokyonight" width="55%" />
-</p>
+<div align="center">
+
+![Stats](https://github-readme-stats.vercel.app/api?username=armansanadi200ok&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github)
+
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=armansanadi200ok&theme=tokyonight&hide_border=true)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=armansanadi200ok&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+
+</div>
 
 ---
 
