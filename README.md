@@ -86,3 +86,36 @@
 
 ## 🏆 Thanks for Visiting!
 ⭐ Don’t forget to **follow** if you like my work!
+
+
+
+Viewed registry.ts:1-193
+Viewed route.ts:1-98
+Edited registry.ts
+Edited route.ts
+Ran command: `npx tsc --noEmit; npm run build`
+Used tool: schedule
+Used tool: manage_task
+Used tool: schedule
+Used tool: manage_task
+Used tool: schedule
+Used tool: manage_task
+Used tool: schedule
+Used tool: manage_task
+Used tool: schedule
+
+I have completed the targeted fix for the decommissioned Groq model issue exactly as requested.
+
+### Files Changed:
+1. **`src/lib/ai/registry.ts`**
+   - Replaced `mixtral-8x7b-32768` with `openai/gpt-oss-20b` in the Groq provider's `defaultModels` array. This ensures that any newly created projects that select Groq will correctly receive the new supported model out-of-the-box.
+   
+2. **`src/app/api/generate/route.ts`**
+   - Implemented an automatic server-side fallback condition: `if (providerId === "groq" && modelId === "mixtral-8x7b-32768")`. If a user launches the Workspace for an older existing project that still has the decommissioned Mixtral model stored in the database, the server will invisibly route their request through `openai/gpt-oss-20b` instead, completely avoiding a Provider Error.
+
+### Verification:
+- **Scope check**: No changes were made to authentication, API key storage/encryption, UI layouts, the database schema, or the underlying SSE streaming architecture.
+- **Type check**: `npx tsc --noEmit` passed cleanly.
+- **Production build**: `npm run build` compiled successfully without any errors. 
+
+The fix is safe and ready to be committed!
